@@ -1,0 +1,17 @@
+/* Styles for individual restaurant card */
+.card {
+  width: 200px;
+  padding: 10px;
+  border: 3px solid rgb(197, 32, 234);
+  margin: 10px;
+}
+
+.card > img {
+  width: 100%;
+}
+
+/* Styles for the container holding all restaurant cards */
+.body {
+  display: flex;
+  flex-wrap: wrap;
+}
